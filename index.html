@@ -1,0 +1,483 @@
+<!-- 
+                                 ,---.
+                                /    |
+                               /     |
+                              /      |
+                             /       |
+                        ___,'        |
+                      <  -'          :
+                       `-.__..--'``-,_\_
+                          |o/ <o>` :,.)_`>
+                          :/ `     ||/)
+                          (_.).__,-` |\
+                          /( `.``   `| :
+                          \'`-.)  `  ; ;
+                          | `       /-<
+                          |     `  /   `.
+          ,-_-..____     /|  `    :__..-'\
+         /,'-.__\\  ``-./ :`      ;       \
+         `\ `\  `\\  \ :  (   `  /  ,   `. \
+           \` \   \\   |  | `   :  :     .\ \
+            \ `\_  ))  :  ;     |  |      ): :
+           (`-.-'\ ||  |\ \   ` ;  ;       | |
+            \-_   `;;._   ( `  /  /_       | |
+             `-.-.// ,'`-._\__/_,'         ; |
+                \:: :     /     `     ,   /  |
+                 || |    (        ,' /   /   |
+                 ||                ,'   / SSt|
+
+███╗   ███╗██████╗    ██╗    ██╗██╗███████╗ █████╗ ██████╗ ██████╗ 
+████╗ ████║██╔══██╗   ██║    ██║██║╚══███╔╝██╔══██╗██╔══██╗██╔══██╗
+██╔████╔██║██████╔╝   ██║ █╗ ██║██║  ███╔╝ ███████║██████╔╝██║  ██║
+██║╚██╔╝██║██╔══██╗   ██║███╗██║██║ ███╔╝  ██╔══██║██╔══██╗██║  ██║
+██║ ╚═╝ ██║██║  ██║██╗╚███╔███╔╝██║███████╗██║  ██║██║  ██║██████╔╝
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝ ╚══╝╚══╝ ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" type="image/jpg" href="./images/my-logo1.svg" />
+    <meta property="og:image" content="./images/link_preview.png" />
+    <link rel="image_src" href="./images/link_preview.png" />
+    <title>Rowland Adimoha</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="hero">
+        <nav class="nav-wrapper">
+          <img class="logo" src="./images/my-logo.svg" />
+          <div class="burger" onclick="toggleBurger()">
+            <div class="bar" id="bar1"></div>
+            <div class="bar" id="bar2"></div>
+            <div class="bar" id="bar3"></div>
+          </div>
+          <ul class="nav">
+            <a class="click" href="#about"><li class="nav-item">About</li></a>
+            <a class="click" href="#projects"
+              ><li class="nav-item">Projects</li></a
+            >
+            <a class="click" href="#contact"
+              ><li class="nav-item">Contact</li></a
+            >
+            <a href="Rowland Adimoha.pdf" target="_blank"
+              ><li class="nav-item">Resume</li></a
+            >
+          </ul>
+          <div class="mobile-nav-bg"></div>
+        </nav>
+        <div class="hero-content-wrapper">
+          <img class="logo-bg" src="./images/my-logo.svg" />
+          <div class="name-wrapper">
+            <h1 class="name name-stg">Rowland Adimoha</h1>
+            <h3 class="title name-stg">Frontend Developer</h3>
+          </div>
+          <div class="social-wrapper">
+            <a href="https://github.com/rowjay007" target="_blank"
+              ><img
+                class="social-icon stagger2"
+                src="./images/Github_white.svg"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/rowlandadimoha/"
+              target="_blank"
+              ><img
+                class="social-icon stagger2"
+                src="./images/LinkedIN_white.svg"
+            /></a>
+            <a href="https://twitter.com/rowjay007" target="_blank"
+              ><img
+                class="social-icon stagger2"
+                src="./images/Twitter_white.svg"
+            /></a>
+          </div>
+        </div>
+        <img class="circle-bg" src="./images/circle.svg" />
+        <img class="circle-sm stagger1" src="./images/circle.svg" />
+        <img class="triangle-sm stagger1" src="./images/triangle.svg" />
+        <img class="dots-left" src="./images/dots.svg" />
+        <img class="dots-right" src="./images/dots.svg" />
+        <img class="square-sm stagger1" src="./images/square.svg" />
+        <img class="square-bg" src="./images/square.svg" />
+      </section>
+      <section class="section-spacing about">
+        <div id="about" class="fake-anchor"></div>
+        <div class="section-heading">
+          <h2 class="transition2">About</h2>
+          <h6 class="transition2">Myself</h6>
+        </div>
+        <div class="about-content section-content">
+          <p class="text left">
+            Hey! My name is Rowland, and I'm a frontend web developer. I'm a
+            Lagos State University graduate with a Bachelor's degree in Business
+            Administration, and I'm also a Aptech Bootcamp graduate with a
+            certification in Advanced Software Engineering. I like taking on new
+            challenges, and working with new technologies. I have experience in
+            building complex user interfaces, and a passion for learning
+            emerging new technologies. My goal is to develop innovative &
+            aesthetic applications that will shape the future of society!
+          </p>
+          <img
+            class="circle transition9"
+            src="./images/avatar.svg"
+            alt="avatar"
+          />
+        </div>
+      </section>
+      <section class="section-spacing skills">
+        <div id="skills" class="fake-anchor"></div>
+        <img class="skills-dots" src="./images/dots.svg" />
+        <img class="skills-dots" src="./images/dots.svg" />
+        <div class="section-heading">
+          <h2 class="transition3">My</h2>
+          <h6 class="skills-title transition3">Skills</h6>
+        </div>
+        <div class="skills-content section-content">
+          <div class="skill-card transition7">
+            <h5>React.js</h5>
+            <div class="skill-card-icon-container React">
+              <img src="./images/skills/react.svg" alt="skills-img" />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>JavaScript</h5>
+            <div class="skill-card-icon-container JavaScript">
+              <img src="./images/skills/js.svg" alt="skills-img" />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>Node.js</h5>
+            <div class="skill-card-icon-container Node">
+              <img src="./images/skills/node.svg" alt="skills-img" />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>MongoDB</h5>
+            <div class="skill-card-icon-container transition7 MongoDB">
+              <img src="./images/skills/mongo.svg" alt="skills-img" />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>HTML</h5>
+            <div class="skill-card-icon-container transition7 html">
+              <img
+                class="smaller-img"
+                src="./images/skills/html.svg"
+                alt="skills-img"
+              />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>CSS</h5>
+            <div class="skill-card-icon-container transition7">
+              <img
+                class="smaller-img"
+                src="./images/skills/css.svg"
+                alt="skills-img"
+              />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>Figma</h5>
+            <div class="skill-card-icon-container transition7">
+              <img
+                class="figma-img"
+                src="./images/skills/figma.svg"
+                alt="skills-img"
+              />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>Github</h5>
+            <div class="skill-card-icon-container">
+              <img src="./images/skills/github.png" alt="skills-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-spacing">
+        <div id="projects" class="fake-anchor"></div>
+        <div class="section-heading">
+          <h2 class="transition4">My</h2>
+          <h6 class="transition4">Projects</h6>
+        </div>
+        <div class="project-content">
+          <div class="project-item-wrapper showProject1">
+            <div class="project-card-img-section">
+              <img
+                src="./images/project_screenshots/image-search-gallery.png"
+                alt=""
+              />
+              <div class="project-hidden-links">
+                <a
+                  target="_blank"
+                  href="https://tender-lalande-cc076a.netlify.app/"
+                >
+                  Live Link
+                </a>
+              </div>
+            </div>
+            <div class="mobile-links">
+              <a
+                target="_blank"
+                href="https://tender-lalande-cc076a.netlify.app/"
+              >
+                Live Link
+              </a>
+            </div>
+            <div class="project-desc-wrapper">
+              <p class="title">
+                <span class="highlight">Image Search Gallery</span>
+                <!-- <span class="status">March 2021 - Present</span> -->
+              </p>
+              <div class="roles">
+                Roles: <span>design & developed frontend</span>
+              </div>
+              <div class="desc">
+                <span class="overview">Overview: </span>
+
+                I am fascinated by the power of react hooks and their s not
+                better way than to create a project using unsplash api and
+                react-context hooks. Unsplash is a free image hosting site that
+                allows users to download and views images which can also be used
+                for projects whilst giving credits to them. This projects allows
+                user to search images from unsplash website using the search
+                bar.
+              </div>
+              <div class="tech-stack">
+                <p>Frontend Stack: <span>React & Styled-Components</span></p>
+                <!-- <p>Backend Stack: <span>Node.js, PHP, MySQL, MongoDB</span></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="project-item-wrapper showProject2">
+            <div class="project-card-img-section">
+              <img src="./images/project_screenshots/educonet.png" alt="" />
+              <div class="project-hidden-links">
+                <a
+                  target="_blank"
+                  href="https://github.com/BuildForSDGCohort2/team-003-group-a-frontend"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+            <div class="mobile-links">
+              <a
+                target="_blank"
+                href="https://github.com/BuildForSDGCohort2/team-003-group-a-frontend"
+              >
+                Github
+              </a>
+            </div>
+            <div class="project-desc-wrapper">
+              <p class="title">
+                <span class="highlight">Educonet </span>
+                <!-- <span class="status">April 2020 - June 2020</span> -->
+              </p>
+              <div class="roles">
+                Roles: <span>design and developed frontend </span>
+              </div>
+              <div class="desc">
+                <span class="overview">Overview: </span>
+                This is facebook and Andela project on for Africans. I and my
+                team decided to build education website that will connect pupils
+                and parents during the pandemic and also allow credible and
+                verified teachers to apply for jobs. The project allows parents
+                to see pupils performance in real time with teachers comments
+                while pupils acknowledge satisfactory performance from teachers.
+              </div>
+              <div class="tech-stack">
+                <p>Frontend Stack: <span>React.js </span></p>
+                <p>Backend Stack: <span>Node.js, Express.js</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="project-item-wrapper showProject3">
+            <div class="project-card-img-section">
+              <img src="./images/project_screenshots/healthy-9ja.png" alt="" />
+              <div class="project-hidden-links">
+                <a
+                  target="_blank"
+                  href="https://github.com/rowjay007/healthy-Naija"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+            <div class="mobile-links">
+              <a
+                target="_blank"
+                href="https://github.com/rowjay007/healthy-Naija"
+              >
+                Github
+              </a>
+            </div>
+            <div class="project-desc-wrapper">
+              <p class="title">
+                <span class="highlight">Healthy 9ja</span>
+                <!-- <span class="status">August 2019 - September 2019</span> -->
+              </p>
+              <div class="roles">
+                Roles: <span>designed & developed frontend</span>
+              </div>
+              <div class="desc">
+                <span class="overview">Overview: </span>
+                I am huge advocate of healthy living and their is better way to
+                show that than developing a plan for people who wants to exhibit
+                such traits. This is a website with meal plan that allows you to
+                choose convenient place for your healthy living. This project
+                also was part of my journey towards learning flex box and css
+                grid which has become game changer for box model design.
+              </div>
+              <div class="tech-stack">
+                <p>Frontend Stack: <span>Javascript, HTML, CSS</span></p>
+
+                <!-- <p>Backend Stack: <span>Node.js, Express.js, MongoDB</span></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="project-item-wrapper showProject4">
+            <div class="project-card-img-section">
+              <img
+                src="./images/project_screenshots/travelers-guide.png"
+                alt=""
+              />
+              <div class="project-hidden-links">
+                <a
+                  target="_blank"
+                  href="https://github.com/rowjay007/travelers-guide"
+                >
+                  Github
+                </a>
+                <a
+                  target="_blank"
+                  href="https://practical-ride-d55337.netlify.app/"
+                >
+                  Live Link
+                </a>
+              </div>
+            </div>
+            <div class="mobile-links">
+              <a
+                target="_blank"
+                href="https://practical-ride-d55337.netlify.app/"
+              >
+                Live Link
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/rowjay007/travelers-guide"
+              >
+                Github
+              </a>
+            </div>
+            <div class="project-desc-wrapper">
+              <p class="title">
+                <span class="highlight">Travelers Guide</span>
+                <!-- <span class="status">July 2019 - August 2019</span> -->
+              </p>
+              <div class="roles">
+                Roles: <span>designed & developed frontend </span>
+              </div>
+              <div class="desc">
+                <span class="overview">Overview: </span>
+                This is a project for the course on Cousera: Web Design for
+                Everyday Specialization which is a scholarship project the
+                government of Egypt to skill up African in tech and programming.
+                I designed and built and travelers tour guide that shows
+                prospective travelers roadmap to different destination with
+                mountain tourist in focus.
+              </div>
+              <div class="tech-stack">
+                <p>Frontend Stack: <span>Javascript, HTML, CSS</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="contact">
+        <div class="section-heading">
+          <h2 class="transition5">Contact</h2>
+          <h6 class="transition5">me</h6>
+        </div>
+
+        <div class="footer-content">
+          <div class="link-wrapper transition8">
+            <div class="link">
+              <img class="social-icon" src="./images/Gmail_white.svg" />
+              <span>rowlives@gmail.com</span>
+            </div>
+            <a href="https://www.linkedin.com/in/mitchmalinin/" target="_blank">
+              <div class="link">
+                <img class="social-icon" src="./images/LinkedIN_white.svg" />
+                <span>linkedin.com/in/rowlandadimoha/</span>
+              </div>
+            </a>
+            <a href="https://github.com/mitchmalinin" target="_blank">
+              <div class="link">
+                <img class="social-icon" src="./images/Github_white.svg" />
+                <span>github.com/rowjay007</span>
+              </div>
+            </a>
+            <a href="https://twitter.com/mitchmalinin" target="_blank">
+              <div class="link">
+                <img class="social-icon" src="./images/Twitter_white.svg" />
+                <span>twitter.com/rowjay007</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="credits">
+            <a
+              class="resume"
+              href="./Rowland Adimoha.pdf"
+              download="Rowland Adimoha"
+            >
+              <div class="link">
+                <i class="fas fa-file"></i>
+                <span>Download Resume</span>
+              </div>
+            </a>
+            <!-- <img src="./images/my-logo.svg" /> -->
+            <span>Rowland Adimoha 2021 ©</span>
+          </div>
+
+          <img class="dots transition8" src="images/dots.svg" alt="dots" />
+          <img
+            class="tri transition8"
+            src="./images/triangle.svg"
+            alt="triangle"
+          />
+        </div>
+      </footer>
+      <script
+        src="https://kit.fontawesome.com/a561988c34.js"
+        crossorigin="anonymous"
+      ></script>
+
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+        integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"
+        integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q=="
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"
+      ></script>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
